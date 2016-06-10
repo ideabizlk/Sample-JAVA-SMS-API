@@ -13,7 +13,6 @@ Sample sms sending and recieving JAVA app using spring and maven. (Modification 
 	
 * Create mysql DB and run `Database.sql`
 * Config `log4.properties` file `log4j.appender.file.File` File path
-* Run `Database.sql` on mysql DB
 * Create Ideabiz App on ideabiz.lk
 * Subscribe for relevent API's (SMS for this sample)
 * Generate `consumer key`, `consumer secret`, `refresh token`, `access token` 
