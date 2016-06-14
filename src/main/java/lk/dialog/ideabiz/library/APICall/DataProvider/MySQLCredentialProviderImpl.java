@@ -2,7 +2,7 @@ package lk.dialog.ideabiz.library.APICall.DataProvider;
 
 
 import com.google.gson.Gson;
-import lk.dialog.ideabiz.library.APICall.DataProvider.DataProviderInterface;
+import lk.dialog.ideabiz.library.APICall.DataProvider.IdeabizOAuthDataProviderInterface;
 import lk.dialog.ideabiz.library.model.APICall.OAuth2Model;
 import org.apache.log4j.Logger;
 
@@ -15,7 +15,7 @@ import java.sql.SQLException;
 /**
  * Created by Malinda_07654 on 2/9/2016.
  */
-public class MySQLCredentialProviderImpl implements DataProviderInterface {
+public class MySQLCredentialProviderImpl implements IdeabizOAuthDataProviderInterface {
     Logger logger;
     Gson gson;
 

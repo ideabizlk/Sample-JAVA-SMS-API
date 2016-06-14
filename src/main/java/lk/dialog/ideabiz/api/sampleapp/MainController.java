@@ -2,23 +2,16 @@ package lk.dialog.ideabiz.api.sampleapp;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import lk.dialog.ideabiz.api.model.common.sms.Inbound.InboundSMSRequestWrap;
-import lk.dialog.ideabiz.api.model.common.sms.Outbound.OutboundSMSMessageRequest;
-import lk.dialog.ideabiz.api.model.common.sms.Outbound.OutboundSMSMessagingRequestWrap;
 import lk.dialog.ideabiz.library.APIHandler.SMSHandler;
 import lk.dialog.ideabiz.library.APIHandler.model.SMS.SMSMessage;
 import lk.dialog.ideabiz.library.LibraryManager;
-import lk.dialog.ideabiz.library.model.APICall.APICallResponse;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
 import javax.servlet.http.HttpServletRequest;
-import java.util.HashMap;
-import java.util.Map;
 
 
 /**
